@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+background:linear-gradient(90deg,hsla(198, 74%, 84%, 0.897) ,lab(100% 0.01 -0.01));
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+#header{
+    background:linear-gradient(90deg , rgba(72, 5, 197, 0.547), rgba(4, 212, 212, 0.574));
+    position: sticky;
+    top:0;
+    height:70px;
+    backdrop-filter:blur(20px) ;
+}
+
+#nav ,ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: rgb(250, 255, 240);
+    text-decoration: none;    
+}
+
+ul{
+     margin-top: 25px;
+     
+}
+
+li{
+     display: flex;
+    justify-content: space-between;
+   
+
+}
+
+a{
+    text-decoration: none;    
+}
+
+#img1{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 20px rgba(112, 112, 112, 0.631);
+    background-size: cover;
+    box-sizing: border-box;
+    border: 15px rgb(98, 197, 5);
+    justify-content: center;
+    justify-self:center;
+    justify-items: center;
+    margin:30px ;
+    
+}
+
+#bio{
+text-align: center;
+}
+
+.div{
+    background: oklab(71.77900000000001% -0.17274 0.14713);
+    padding: 50px;
+    height: 35vh;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 20px rgb(65, 65, 65);
+
+}
+.div:hover{
+    background: rgb(4, 130, 139);
+    box-shadow: 0px 1px 20px rgb(167, 71, 245);
+
+}
+
+footer{
+     background:linear-gradient(90deg , rgba(88, 5, 197, 0.547), rgba(212, 115, 4, 0.574));
+     text-align: center;
+}
+/* ===== COMMON SECTION DESIGN ===== */
+.box {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 18px;
+}
+
+.box h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.box p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* ===== EXPERIENCE ===== */
+.experience {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+/* ===== SKILLS ===== */
+.skills {
+  background: #ffffff;
+  color: #1f2937;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== PROJECTS ===== */
+.projects {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  color: white;
+}
+
+/* ===== SERVICES ===== */
+.services {
+  background: #0f172a;
+  color: #e5e7eb;
+  border-left: 8px solid #3b82f6;
+}
